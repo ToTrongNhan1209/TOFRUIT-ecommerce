@@ -1,0 +1,120 @@
+'use client'
+
+import React, { useState } from 'react';
+import css from "../style.module.css";  
+import '../globals.css';
+import { useParams } from 'react-router-dom'; 
+
+export default function Login() {
+
+  const { slug } = useParams<{ slug: string }>();  
+  
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+  
+
+  const handleUsernameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setUsername(event.target.value);
+  };
+
+
+  const handlePasswordChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setPassword(event.target.value);
+  };
+
+ 
+  const handleSubmit = (event: React.FormEvent) => {
+    event.preventDefault(); 
+    
+
+    if (!username || !password) {
+      setError('Vui lòng điền đủ thông tin');
+      return;
+    }
+
+
+    console.log('Slug from URL:', slug);
+    console.log('Form Data:', { username, password });
+  
+    
+    fetch('http://localhost:3001/user')
+      .then((response) => response.json())
+      .then((users) => {
+  
+        const user = users.find((user: { email: string; password: string }) => 
+          user.email === username && user.password === password
+        );
+
+    
+        if (user) {
+          alert('Đăng nhập thành công!');
+        } else {
+          setError('Tên đăng nhập hoặc mật khẩu không chính xác');
+        }
+      })
+      .catch((err) => {
+        setError('Đã xảy ra lỗi. Vui lòng thử lại sau.');
+        console.error(err);
+      });
+  };
+
+  return (
+    <>
+      <div className={css.header_title_dk}>
+        <div className={css.title_dk}>
+          <h2>Login</h2>  
+        </div>
+
+        <form id="loginForm" onSubmit={handleSubmit}>
+          <div className={css.input_email}>
+            <input 
+              type="email" 
+              placeholder="Email" 
+              id="email"
+              className={css.input} 
+              name="email" 
+              value={username} 
+              onChange={handleUsernameChange} 
+              required 
+            />
+          </div>
+
+          <div className={css.input_pass}>
+            <input 
+              type="password" 
+              placeholder="Mật khẩu" 
+              className={css.input} 
+              id="password" 
+              name="password" 
+              value={password} 
+              onChange={handlePasswordChange} 
+              required 
+            />
+          </div>
+
+          <div className={css.input_bbt}>
+            <div className={css.input_button} >
+              <button type="submit" id={css.button} className={css.input_button} >
+                ĐĂNG NHẬP
+              </button>
+            </div>
+          </div>
+        </form>
+
+   
+        {error && <p style={{ color: 'red' }}>{error}</p>}
+      </div>
+
+    
+      <div className={css.quaylai}>
+        <div className={css.icon_quaylai}>
+          <i className="fa-solid fa-arrow-left"></i>
+        </div>
+        <div className={css.title_quaylai}>
+          <a href="/register"><p>Đăng kí</p></a>
+        </div>
+      </div>
+    </>
+  );
+}

@@ -1,0 +1,348 @@
+.quicksand_uniquifier {  
+    font-family: "Quicksand", serif;  
+    font-optical-sizing: auto;  
+    font-weight: weight;  
+    font-style: normal;  
+  }  
+  
+  #body, #button {  
+    font-family: "Quicksand", serif;  
+    font-optical-sizing: auto;  
+    font-weight: weight;  
+    font-style: normal;  
+  }  
+  
+   
+  
+  .containerAdmin {  
+    display: flex;  
+    background-color: #f3f4f6;  
+  }  
+  
+  /* .wrapp {  
+      display: flex;  
+  } */  
+  
+  .menu {  
+    width: 250px;  
+    height: 730px;  
+    background-color: #78c06a;  
+  }  
+  
+  .image_logo {  
+    text-align: center;  
+  }  
+  
+  .image_logo img {  
+    margin-top: 10px;  
+  }  
+  
+  .text_content {  
+    margin: 20px 0 20px 15px;  
+  }  
+  
+  .text_content h4 {  
+    font-size: 13px;  
+    font-weight: 600;  
+    color: #d7dadd;  
+  }  
+  
+  .a {  
+    text-decoration: none;  
+  }  
+  
+  .ul, .li {  
+    list-style-type: none;  
+  }  
+  
+  .side_nav {  
+    margin-left: 20px;  
+  }  
+  
+  .side_nav li {  
+    margin: 30px 0;  
+    font-weight: 500;  
+    list-style-type: none;  
+  }  
+  
+  .side_nav a {  
+    color: rgb(234, 234, 234);  
+  }  
+  
+  .side_nav a:hover {  
+    color: #fff;  
+  }  
+  
+  .i {  
+    font-size: 16px;  
+  }  
+  
+  .side_nav i {  
+    margin-left: 10px;  
+  }  
+  
+  .side_nav span {  
+    margin-left: 20px;  
+    font-size: 16px;  
+  }  
+  
+  .topbar {  
+    display: flex;  
+    width: 100%;  
+    height: 70px;  
+    background-color: #ffffff;  
+    align-items: center;  
+  }  
+  
+  .topbar .bar_icon {  
+    margin: 0 40px;  
+    color: #6c757d;  
+  }  
+  
+  .search {  
+    display: flex;  
+    background-color: #f3f3f4;  
+    border: none;  
+    width: 300px;  
+    height: 35px;  
+    border-radius: 3px;  
+    align-items: center;  
+    font-size: 14px;  
+  }  
+  
+  .search i {  
+    margin-left: 10px;  
+    color: #6c757d;  
+  }  
+  
+  .search input {  
+    background: none;  
+    border: none;  
+    width: 100%;  
+    height: 100%;  
+    margin-left: 10px;  
+    padding: 1px 10px 1px 5px;  
+    outline: none;  
+    font-size: 15px;  
+    color: #79828a;  
+  }  
+  
+  .search button {  
+    height: 37px;  
+    padding: 10px 15px;  
+    background-color: #69de51;  
+    border: none;  
+    color: #fff;  
+    font-size: 14px;  
+    font-weight: 600;  
+  }  
+  
+  .search button:hover {  
+    background-color: #78c06a;  
+  }  
+  
+  .users {  
+    display: flex;  
+    margin-left: 800px;  
+  }  
+  
+  .users .user_image img {  
+    width: 30px;  
+    height: 30px;  
+    border-radius: 100px;  
+    background-color: blue;  
+  }  
+  
+  .users .user_name {  
+    margin: 5px;  
+  }  
+  
+  .users .user_name h4 {  
+    color: rgb(111, 107, 107);  
+  }  
+  
+  .page_title {  
+    display: flex;  
+  }  
+  
+  .page_title .title {  
+    margin: 20px 0 0 40px;  
+    color: rgb(111, 107, 107);  
+    width: 300px;  
+  }  
+  
+  .page_title .button_new {  
+    margin: 13px 0 0 780px;  
+    color: rgb(111, 107, 107);  
+  }  
+  
+  .page_title .button_new button {  
+    height: 35px;  
+    padding: 5px 20px;  
+    margin: 0 10px;  
+    color: #fff;  
+    background-color: #69de51;  
+    border: none;  
+    font-weight: 600;  
+    font-size: 16px;  
+  }  
+  
+  .page_title .button_new button:hover {  
+    background-color: #78c06a;  
+  }  
+  
+  .page_title .button_new button i {  
+    margin-right: 5px;  
+  }  
+  
+  .table, .tr {  
+    border: 2px solid #dee2e6;  
+    border-collapse: collapse;  
+    border-radius: 5px;  
+  }  
+  
+  .table {  
+    width: 93%;  
+    margin: 20px 40px;  
+  }  
+  
+  .th {  
+    padding: 10px 10px;  
+    text-align: left;  
+  }  
+  
+  .td {  
+    padding: 5px 10px;  
+    text-align: left;  
+    font-weight: 500;  
+  }  
+  
+  .td .but1{  
+    padding: 8px;  
+    background-color: #69de51;  
+    border: none;  
+    color: #fff;  
+    font-weight: 600;  
+    border-radius: 5px;  
+  } 
+  .td .but2 {  
+    padding: 8px;  
+    background-color: #69de51;  
+    border: none;  
+    color: #fff;  
+    font-weight: 600;  
+    border-radius: 5px;  
+    margin-left: 5px;
+  }   
+  
+  .td .but1:hover {  
+    background-color: #78c06a;  
+  }  
+  
+  .td .but2:hover {  
+    background-color: #78c06a;  
+  }  
+  
+  .status1 {  
+    background-color: #0acf97;  
+    color: #ffffff;  
+    border: none;  
+    padding: 5px;  
+    border-radius: 5px;  
+  }  
+  
+  .status2 {  
+    background-color: rgb(250 61 124);  
+    color: #ffffff;  
+    border: none;  
+    padding: 5px;  
+    border-radius: 5px;  
+  }  
+  
+  .status_order1 {  
+    color: #39afd1;  
+    border: none;  
+    padding: 5px;  
+    background-color: #ebf7fa;  
+    font-weight: 600;  
+    border-radius: 5px;  
+  }  
+  
+  .status_order2 {  
+    color: #ffc35a;  
+    border: none;  
+    padding: 5px;  
+    background-color: #fff9ef;  
+    font-weight: 600;  
+    border-radius: 5px;  
+  }  
+  
+  .status_order3 {  
+    color: #0acf97;  
+    border: none;  
+    padding: 5px;  
+    background-color: #e7faf5;  
+    font-weight: 600;  
+    border-radius: 5px;  
+  }  
+  
+  .status_order4 {  
+    color: #fa5c7c;  
+    border: none;  
+    padding: 5px;  
+    background-color: #ffeff2;  
+    font-weight: 600;  
+    border-radius: 5px;  
+  }  
+  
+  .role_user {  
+    color: #39afd1;  
+    border: none;  
+    padding: 5px;  
+    background-color: #ebf7fa;  
+    font-weight: 500;  
+    border-radius: 5px;  
+    font-size: 16px;  
+  }  
+  
+  /* add */  
+  .update {  
+    width: 1000px;  
+    height: auto;  
+    background-color: #fff;  
+    box-shadow: 1px 0 0.5px rgba(0, 0, 0, 0.2);  
+    border-radius: 5px;  
+    margin-left: 40px;  
+    margin-top: 20px;  
+    padding: 10px 0 10px 0px;  
+  }  
+  
+  .capnhat_content {  
+    margin: 0 30px;  
+  }  
+  
+  .capnhat_content form {  
+    margin-top: 10px;  
+  }  
+  
+  .capnhat_content form label {  
+    padding: 40px 0 0 0px;  
+    font-size: 12px;  
+    color: #625f5f;  
+  }  
+  
+  .capnhat_content form .update_input {  
+    width: 100%;  
+    height: 40px;  
+    outline: none;  
+    border: 1px solid #d4d4dd;  
+    border-radius: 5px;  
+    padding: 8px 12px;  
+    margin-top: 4px;  
+  }  
+  
+  .capnhat_content form .submit {  
+    margin: 10px 0;  
+    width: 130px;  
+    height: 25px;  
+  }  

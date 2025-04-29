@@ -1,0 +1,114 @@
+{
+  "products": [],
+  "orders": [
+    {
+      "id": 1,
+      "items": [
+        {
+          "id": "4",
+          "name": "Dưa Lưới Hoàng Kim",
+          "price": "105,000đ",
+          "image": "../image/traingonhomnay/dualuoi.jpg",
+          "description": "Dưa Lưới Hoàng Kim là một trong những giống mới, được gieo trồng ở nhiều tỉnh thành khác nhau. Với vẻ ngoài vàng kim tươi mát, dưa lưới hoàng kim không chỉ thích hợp để mua làm quà mà còn được trưng trong các dịp lễ, tết, đình đám ",
+          "categories": "homnay",
+          "hot": 1,
+          "status": "còn hàng",
+          "quantity": 2
+        }
+      ],
+      "total": "210.00",
+      "date": "2025-04-17T18:54:41.136Z"
+    },
+    {
+      "id": 2,
+      "items": [
+        {
+          "id": "4",
+          "name": "Dưa Lưới Hoàng Kim",
+          "price": "105,000đ",
+          "image": "../image/traingonhomnay/dualuoi.jpg",
+          "description": "Dưa Lưới Hoàng Kim là một trong những giống mới, được gieo trồng ở nhiều tỉnh thành khác nhau. Với vẻ ngoài vàng kim tươi mát, dưa lưới hoàng kim không chỉ thích hợp để mua làm quà mà còn được trưng trong các dịp lễ, tết, đình đám ",
+          "categories": "homnay",
+          "hot": 1,
+          "status": "còn hàng",
+          "quantity": 2
+        }
+      ],
+      "total": "210.00",
+      "date": "2025-04-17T18:54:41.165Z"
+    },
+    {
+      "id": 3,
+      "items": [
+        {
+          "id": "4",
+          "name": "Dưa Lưới Hoàng Kim",
+          "price": "105,000đ",
+          "image": "../image/traingonhomnay/dualuoi.jpg",
+          "description": "Dưa Lưới Hoàng Kim là một trong những giống mới, được gieo trồng ở nhiều tỉnh thành khác nhau. Với vẻ ngoài vàng kim tươi mát, dưa lưới hoàng kim không chỉ thích hợp để mua làm quà mà còn được trưng trong các dịp lễ, tết, đình đám ",
+          "categories": "homnay",
+          "hot": 1,
+          "status": "còn hàng",
+          "quantity": 3
+        }
+      ],
+      "total": "315.00",
+      "date": "2025-04-17T19:05:43.384Z"
+    },
+    {
+      "id": 4,
+      "items": [
+        {
+          "id": "1",
+          "name": "Mận An Phước",
+          "price": "85,000đ",
+          "image": "../image/traingonhomnay/man.png",
+          "description": "Giống mận An Phước được ghép từ mắt của giống mận Thongsamsri của Thái trên gốc mận xanh đường Việt Nam. Nhờ lai tạo có chọn lọc mà giống mận này rất không chỉ sai trái mà độ ngọt cũng đậm hơn giống cũ.",
+          "quantity": 5
+        },
+        {
+          "id": "4",
+          "name": "Dưa Lưới Hoàng Kim",
+          "price": "105,000đ",
+          "image": "../image/traingonhomnay/dualuoi.jpg",
+          "description": "Dưa Lưới Hoàng Kim là một trong những giống mới, được gieo trồng ở nhiều tỉnh thành khác nhau. Với vẻ ngoài vàng kim tươi mát, dưa lưới hoàng kim không chỉ thích hợp để mua làm quà mà còn được trưng trong các dịp lễ, tết, đình đám ",
+          "quantity": 9
+        },
+        {
+          "id": "6",
+          "name": "Cam Vàng Úc",
+          "price": "110,000đ",
+          "image": "../image/traingonhomnay/cam.jpg",
+          "description": "Cam vàng là giống lai giữa bưởi (Citrus maxima) và quýt (Citrus reticulata).Sở hữu hình dáng tròn đều cùng sắc cam tươi tắn, bắt mắt. Cam vàng là sự lựa chọn rất thích hợp để mua làm quà hoặc trưng bày trên mâm quả của gia đình trong các dịp lễ. ",
+          "quantity": 3
+        },
+        {
+          "id": "3",
+          "name": "Bưởi Da Xanh",
+          "price": "85,000đ",
+          "image": "../image/traingonhomnay/buoi.jpg",
+          "description": "Bưởi da xanh là loại trái cây quen thuộc của mọi gia đình Việt Nam, thường xuyên xuất hiện trong mâm ngũ quả. Không chỉ có hương vị ngọt lành, bưởi còn chứa nhiều dưỡng chất cho cơ thể. Cùng tìm hiểu về địa chỉ mua trái cây Việt Nam ngon, chất lượng, giá tốt. Khám phá ngay! ",
+          "quantity": 1
+        }
+      ],
+      "total": "1785.00",
+      "date": "2025-04-17T19:16:28.863Z"
+    },
+    {
+      "id": 5,
+      "items": [
+        {
+          "id": "4",
+          "name": "Dưa Lưới Hoàng Kim",
+          "price": "105,000đ",
+          "image": "../image/traingonhomnay/dualuoi.jpg",
+          "description": "Dưa Lưới Hoàng Kim là một trong những giống mới, được gieo trồng ở nhiều tỉnh thành khác nhau. Với vẻ ngoài vàng kim tươi mát, dưa lưới hoàng kim không chỉ thích hợp để mua làm quà mà còn được trưng trong các dịp lễ, tết, đình đám ",
+          "quantity": 5
+        }
+      ],
+      "total": "525.00",
+      "date": "2025-04-17T19:22:43.578Z"
+    }
+  ],
+  "cart": []
+}

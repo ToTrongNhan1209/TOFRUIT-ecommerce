@@ -1,0 +1,126 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "name": "Mận An Phước",
+      "price": "85,000đ",
+      "image": "../image/traingonhomnay/man.png",
+      "description": "Giống mận An Phước được ghép từ mắt của giống mận Thongsamsri của Thái trên gốc mận xanh đường Việt Nam. Nhờ lai tạo có chọn lọc mà giống mận này rất không chỉ sai trái mà độ ngọt cũng đậm hơn giống cũ.",
+      "categories": "homnay",
+      "hot": 1,
+      "status": "còn hàng"
+    },
+    {
+      "id": "2",
+      "name": "Quýt Úc",
+      "price": "145,000đ",
+      "image": "../image/traingonhomnay/quyt.jpg",
+      "description": "Quýt Úc được ca ngợi là loại quýt ngon và ngọt nhất thế giới. Những trái quýt nhập khẩu được tuyển chọn kỹ càng, chín mọng, vị ngọt mát ấn tượng. Khám phá ngay! ",
+      "categories": "homnay",
+      "hot": 0,
+      "status": "còn hàng"
+    },
+    {
+      "id": "3",
+      "name": "Bưởi Da Xanh",
+      "price": "85,000đ",
+      "image": "../image/traingonhomnay/buoi.jpg",
+      "description": "Bưởi da xanh là loại trái cây quen thuộc của mọi gia đình Việt Nam, thường xuyên xuất hiện trong mâm ngũ quả. Không chỉ có hương vị ngọt lành, bưởi còn chứa nhiều dưỡng chất cho cơ thể. Cùng tìm hiểu về địa chỉ mua trái cây Việt Nam ngon, chất lượng, giá tốt. Khám phá ngay! ",
+      "categories": "homnay",
+      "hot": 0,
+      "status": "còn hàng"
+    },
+    {
+      "id": "4",
+      "name": "Dưa Lưới Hoàng Kim",
+      "price": "105,000đ",
+      "image": "../image/traingonhomnay/dualuoi.jpg",
+      "description": "Dưa Lưới Hoàng Kim là một trong những giống mới, được gieo trồng ở nhiều tỉnh thành khác nhau. Với vẻ ngoài vàng kim tươi mát, dưa lưới hoàng kim không chỉ thích hợp để mua làm quà mà còn được trưng trong các dịp lễ, tết, đình đám ",
+      "categories": "homnay",
+      "hot": 1,
+      "status": "còn hàng"
+    },
+    {
+      "id": "5",
+      "name": "Nho Xanh Mỹ",
+      "price": "325,000đ",
+      "image": "../image/traingonhomnay/nho xanh my.jpg",
+      "description": "Nho xanh không hạt Mỹ là dòng trái cây nhập khẩu, được người tiêu dùng tại Việt Nam ưa chuộng, không chỉ bởi ngoại hình bắt mắt, mà hương vị cũng say đắm lòng người. ",
+      "categories": "homnay",
+      "hot": 1,
+      "status": "còn hàng"
+    },
+    {
+      "id": "6",
+      "name": "Cam Vàng Úc",
+      "price": "110,000đ",
+      "image": "../image/traingonhomnay/cam.jpg",
+      "description": "Cam vàng là giống lai giữa bưởi (Citrus maxima) và quýt (Citrus reticulata).Sở hữu hình dáng tròn đều cùng sắc cam tươi tắn, bắt mắt. Cam vàng là sự lựa chọn rất thích hợp để mua làm quà hoặc trưng bày trên mâm quả của gia đình trong các dịp lễ. ",
+      "categories": "nhapkhau",
+      "hot": 1,
+      "status": "còn hàng"
+    },
+    {
+      "id": "7",
+      "name": "Sapoche",
+      "price": "75,000đ",
+      "image": "../image/traingonhomnay/sapoche.jpg",
+      "description": " Sapoche hay còn được gọi là Hồng Xiêm, là một loại trái cây khi chín có vị ngọt đậm, mềm, mọng nước và thơm dịu. ",
+      "categories": "catsan",
+      "hot": 1,
+      "status": "còn hàng"
+    },
+    {
+      "id": "8",
+      "name": "Kiwi xanh New Zealand",
+      "price": "125,000đ",
+      "image": "../image/traingonhomnay/kiwi.jpg",
+      "description": "Kiwi xanh có lớp vỏ màu nâu xanh với lớp lông tơ phủ bên ngoài. Bên trong là phần ruột màu xanh lá cây tươi tắn và bắt mắt. So với Kiwi vàng, hạt Kiwi xanh đen nhỏ và nhiều hơn đáng kể..",
+      "categories": "nhapkhau",
+      "hot": 0,
+      "status": "còn hàng"
+    },
+    {
+      "id": "9",
+      "name": "Cóc chín",
+      "price": "60,000đ",
+      "image": "../image/traingonhomnay/cocchin.jpg",
+      "description": "Cóc chín được thu hoạch khi trái đã neo già trên cây, vỏ chuyển từ xanh sang vàng. Cóc chín khi mềm sẽ dễ dàng lột vỏ, màu thịt vàng ươm bắt mắt, hương thơm ngào ngạt, vị chua chua ngọt ngọt, khi ăn sẽ cảm thấy được độ ngọt nhiều hơn cóc già. ",
+      "categories": "nhapkhau",
+      "hot": 0,
+      "status": "còn hàng"
+    },
+    {
+      "id": "10",
+      "name": "Thanh long ruột tím",
+      "price": "85,000đ",
+      "image": "../image/traingonhomnay/thanhlong.jpg",
+      "description": "Thanh Long ruột tím hồng được lai tạo từ thanh long ruột trắng và thanh long ruột đỏ, chính vì thế thịt trái có đặc điểm  chắc như thanh long ruột trắng nhưng màu sắc và độ ngọt lại thiên nhiều thanh long ruột đỏ.. ",
+      "categories": "nhapkhau",
+      "hot": 0,
+      "status": "còn hàng"
+    },
+    {
+      "id": "11",
+      "name": "Thanh long ruột tím",
+      "price": "85,000đ",
+      "image": "../image/traingonhomnay/thanhlong.jpg",
+      "description": "Thanh Long ruột tím hồng được lai tạo từ thanh long ruột trắng và thanh long ruột đỏ, chính vì thế thịt trái có đặc điểm  chắc như thanh long ruột trắng nhưng màu sắc và độ ngọt lại thiên nhiều thanh long ruột đỏ.. ",
+      "categories": "vietnam",
+      "hot": 0,
+      "status": "còn hàng"
+    }
+  ],
+  "user": [
+    {
+      "id": "2de2",
+      "email": "nhanttps40174@gmail.com",
+      "password": "222222"
+    },
+    {
+      "id": "2de4",
+      "email": "totrongnhan1209@gmail.com",
+      "password": "111111"
+    }
+  ]
+}
