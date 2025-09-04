@@ -28,19 +28,32 @@ const CartContext = createContext<CartContextType | undefined>(undefined);
 export const CartProvider = ({ children }: { children: ReactNode }) => {  
   const [cartItems, setCartItems] = useState<CartItem[]>([]);  
 
-  // Fetch the initial cart items (if necessary)  
+  // Load cart items from localStorage on component mount
   useEffect(() => {  
-    const fetchCart = async () => {  
-      // Fetch data from your backend if you need to get the initial cart state  
-      const res = await fetch("/api/cart");  
-      if (res.ok) {  
-        const data = await res.json();  
-        setCartItems(data.cart);  
-      }  
-    };  
+    const loadCartFromStorage = () => {
+      try {
+        const savedCart = localStorage.getItem('cartItems');
+        if (savedCart) {
+          const parsedCart = JSON.parse(savedCart);
+          setCartItems(parsedCart);
+        }
+      } catch (error) {
+        console.error('Error loading cart from localStorage:', error);
+        setCartItems([]);
+      }
+    };
 
-    fetchCart();  
-  }, []);  
+    loadCartFromStorage();
+  }, []);
+
+  // Save cart items to localStorage whenever cartItems changes
+  useEffect(() => {
+    try {
+      localStorage.setItem('cartItems', JSON.stringify(cartItems));
+    } catch (error) {
+      console.error('Error saving cart to localStorage:', error);
+    }
+  }, [cartItems]);  
 
   // Function to add a product to the cart  
   const addToCart = (product: Product) => {  
